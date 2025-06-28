@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>About - PoultryDetect</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: black;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      align-items: center;
+      background-color: #222;
+      padding: 10px 20px;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 10;
+    }
+
+    .navbar-left {
+      text-align: left;
+      font-weight: bold;
+      font-size: 1.4em;
+      color: #4CAF50;
+    }
+
+    .navbar-center {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    .navbar-center a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+      padding: 6px 12px;
+      border-radius: 4px;
+      transition: background 0.3s;
+    }
+
+    .navbar-center a:hover {
+      background-color: #4CAF50;
+    }
+
+    .content {
+      padding-top: 100px;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 1.2em;
+      max-width: 700px;
+      margin: 0 auto 30px auto;
+      line-height: 1.6;
+    }
+
+    .button, #capture, .upload-section button {
+      padding: 12px 24px;
+      background-color: #4CAF50;
+      color: white;
+      text-decoration: none;
+      font-size: 1.1em;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    .button:hover, #capture:hover, .upload-section button:hover {
+      background-color: #45a049;
+    }
+
+    video, canvas {
+      margin-top: 20px;
+      border: 2px solid #ddd;
+    }
+
+    .upload-section {
+      margin-top: 40px;
+    }
+
+    input[type="file"] {
+      margin-top: 10px;
+      background: white;
+      color: black;
+      padding: 5px;
+      border-radius: 6px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="navbar">
+    <div class="navbar-left">Poultry Detection</div>
+    <div class="navbar-center">
+      <a href="/">Home</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+      <a href="/predict_page">Prediction</a>
+    </div>
+    <div></div>
+  </div>
+
+  <!-- Page Content -->
+  <div class="content">
+    <h1>About PoultryDetect</h1>
+    <p>
+      PoultryDetect is an AI-powered web application designed to identify poultry diseases such as
+      <strong>Salmonella</strong>, <strong>Coccidiosis</strong>, and <strong>Newcastle Disease</strong> using image and symptom inputs.
+    </p>
+
+
+</body>
+</html>
