@@ -1,0 +1,2 @@
+# Transfer-Learning-Based-Classification-of-Poultry-Diseases-for-Enhanced-Health-Management
+This project leverages deep learning and transfer learning techniques to automatically classify common poultry diseases using image data. Designed with the goal of empowering farmers and veterinary professionals, it offers a fast, accurate, and accessible solution for poultry disease detection through a web-based interface.
